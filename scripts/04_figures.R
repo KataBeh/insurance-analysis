@@ -32,7 +32,7 @@ p_charges_vs_risk
 
 # BMI vs charges:
 p_bmi_vs_charges <- ggplot(insurance_clean, aes(x = bmi, y = charges)) +
-  geom_point(alpha = 0.5) +
+  geom_point(alpha = 0.5, position = "jitter") +
   geom_smooth(method = "lm") +
   labs(title = "BMI and Insurance Charges")
 
