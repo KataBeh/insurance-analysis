@@ -1,7 +1,5 @@
 # Försäkringskostnader – analysera vilka faktorer som hänger ihop med kostnader
 
-test test
-
 Du arbetar som analytiker på ett försäkringsbolag. Företaget har historiska data över kunder och kostnader, men vill bättre förstå om prissättningen verkar följa rimliga mönster och vilka faktorer som driver kostnader mest. De vill också undersöka om en regressionsmodell kan användas som stöd vid framtida prissättning av liknande kunder. Bolaget har samlat in information om kunder, livsstilsfaktorer, hälsorelaterade variabler och tidigare historik. Din uppgift är att analysera datat för att undersöka vilka variabler som verkar hänga ihop med försäkringskostnaderna mest. Målet är inte bara att beskriva datat, utan också att genomföra en regressionsanalys i R, tolka resultaten och diskutera hur modellen fungerar som beslutsstöd.
 
 ## Filer
@@ -17,6 +15,7 @@ Du arbetar som analytiker på ett försäkringsbolag. Företaget har historiska 
 Öppna projektet i RStudio och kör `run_analysis.R`
 
 ## Tolkning och slutsatser
+
 En huvudfil för rapport och sammanställning hittas i `report/results_report.qmd`
 
 ## Paket

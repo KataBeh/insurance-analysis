@@ -68,7 +68,7 @@ charges_bmi
 
 
 
-
+# t-test som undersöker skillnaden i försäkringskostnader mellan rökare och icke-rökare
 smoker_test <- t.test(charges ~ smoker, data = insurance_clean)
 
 smoker_test

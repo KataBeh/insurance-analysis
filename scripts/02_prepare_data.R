@@ -82,6 +82,8 @@ insurance_clean <- insurance_clean %>%
     exercise_level = ifelse(is.na(exercise_level), "unknown", exercise_level)
   )
 
+# motionsnivå har tomma strängar som värden, för korrekt hantering omkodade jag dessa tomma värden till NA
+# saknade värden ersätter jag med en ny kategori ("unknown") för att undvika att förlora observationer
 
 
 
@@ -109,6 +111,8 @@ insurance_clean <- insurance_clean %>%
 
 
 # Skapar nya variabler:
+
+# BMI till kategorier (enklare att analysera samband mellan viktstatus och försäkringskostnader)
 insurance_clean <- insurance_clean %>% 
   mutate(
     bmi_category = case_when(
@@ -121,6 +125,7 @@ insurance_clean <- insurance_clean %>%
   )
 
 
+# Ålder grupperar jag i kategorier (för att identifiera eventuella skillnader mellan åldersgrupper)
 insurance_clean <- insurance_clean %>%
   mutate(
     age_group = case_when(
