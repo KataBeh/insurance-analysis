@@ -53,10 +53,10 @@ p_charges_vs_age
 # Visualiseringarna bekräftar att försäkringskostnaderna är ojämnt fördelade samt att variabler som rökning, BMI och risknivå har tydliga samband med kostnader. Dessa resultat ligger till grund för vidare regressionsanalys.
 
 
-ggsave("output/figures/distribution_of_charges.png", p_distribution, width = 8, height = 5)
-ggsave("output/figures/charges_vs_smoker.png", p_charges_vs_smoker, width = 8, height = 5)
-ggsave("output/figures/charges_vs_risk_level.png", p_charges_vs_risk, width = 8, height = 5)
-ggsave("output/figures/bmi_vs_charges.png", p_bmi_vs_charges, width = 8, height = 5)
-ggsave("output/figures/charges_vs_age_group.png", p_charges_vs_age, width = 8, height = 5)
+#ggsave("output/figures/distribution_of_charges.png", p_distribution, width = 8, height = 5)
+#ggsave("output/figures/charges_vs_smoker.png", p_charges_vs_smoker, width = 8, height = 5)
+#ggsave("output/figures/charges_vs_risk_level.png", p_charges_vs_risk, width = 8, height = 5)
+#ggsave("output/figures/bmi_vs_charges.png", p_bmi_vs_charges, width = 8, height = 5)
+#ggsave("output/figures/charges_vs_age_group.png", p_charges_vs_age, width = 8, height = 5)
 
 
