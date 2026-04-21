@@ -14,6 +14,9 @@ Du arbetar som analytiker på ett försäkringsbolag. Företaget har historiska 
 
 Öppna projektet i RStudio och kör `run_analysis.R`
 
+## Tolkning och slutsatser
+En huvudfil för rapport och sammanställning hittas i `report/results_report.qmd`
+
 ## Paket
 
 -   tidyverse
